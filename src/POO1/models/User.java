@@ -10,6 +10,7 @@ public class User extends Object{
 	public User(String login, Group groupe) {
 		this.login=login;
 		this.groupe=groupe;
+		this.groupe.addUser(this);
 
 	}
 	public String getLogin()	{

@@ -10,6 +10,7 @@ public class Group {
 	private Organization orga;
 	public Group(String name, Organization orga) {
 		this.orga = orga;
+		this.orga.addGroup(this);
 		this.name=name;
 		users=new ArrayList<User>();
 	}

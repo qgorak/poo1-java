@@ -19,9 +19,6 @@ public class Tests {
 		g.addUser(v);
 		u.setLogin("qgorak");
 		u.setGroup(g);
-		g.addUser(u);
-		o.addUser(u);
-		o.addGroup(g);
 		g.setOrga(o);
 		   
 		try {
